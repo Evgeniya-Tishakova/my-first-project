@@ -1,3 +1,5 @@
+secret.md
+
 # Logs
 logs
 *.log
@@ -6,6 +8,20 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
+
+Ігнорувати всі .txt файли
+*.txt
+
+Ігнорувати конкретний файл
+my-passwords.txt
+
+Ігнорувати всі файли в певній папці
+drafts/*
+
+Ігнорувати всі .txt файли, крім plans.txt
+*.txt
+!plans.txt
+
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
